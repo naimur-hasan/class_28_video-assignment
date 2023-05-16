@@ -1,0 +1,69 @@
+.navbar .icon{
+  width: 80px;
+}
+
+/* banner start  */
+.banner{
+  background-image: url(https://mobirise.com/extensions/appamp/assets/images/background3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px;
+  position: relative;
+  z-index: 12;
+}
+
+.appBtn {
+  padding: 13px 120px;
+}
+.banner{
+ 
+}
+
+.banner::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.479);
+  z-index: -1;
+}
+
+/* banner end */
+
+.about img{
+  height: 400px;
+}
+.application img{
+  width: 400px;
+}
+
+.about{
+  flex-wrap: ;
+}
+
+
+@media (max-width:1765px) {
+  .appBtn {
+    font-size: 21px;
+    padding: 10px 71px;
+}
+.py-3 {
+
+  font-size: 13px;
+}
+}
+@media (max-width:1391px) {
+  .appBtn {
+    font-size: 15px;
+ 
+}
+}
+@media (max-width:1291px) {
+  .appBtn {
+    font-size: 14px;
+ 
+}
+}
